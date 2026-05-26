@@ -19,7 +19,7 @@ Class 9: [Candy Mini-Project](Class09/Class09_Halloween_Candy.pdf)
 
 Class 10: [Structural Bioinformatics Part 1](Class10/class10proj.pdf)
 
-Class 11: [Structural Bioinformatics Part 2](Class11/class11.pdf)
+Class 11: [Structural Bioinformatics Part 2](Class 11/class11.pdf)
 
 Class 12: [Genome Informatics](Class12HW/)
 
