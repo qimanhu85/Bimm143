@@ -25,4 +25,4 @@ Class 12: [Genome Informatics](Class12HW/Lab12HW.pdf)
 
 Class 13: [Transcriptomics and the analysis of RNA-Seq data](Lab13/Lab13.pdf)
 
-Class 14: [RNA-seq Analysis Mini-Project](Class 14L RNAseq mini-project/ )
+Class 14: [RNA-seq Analysis Mini-Project](Class14/class14.pdf)
