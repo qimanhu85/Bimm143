@@ -1,0 +1,90 @@
+---
+title: "Class06 Homework"
+author: "Qiman A1791240"
+format:
+  pdf:
+    code-overflow: wrap
+---
+
+Q6. How would you generalize the original code above to work with any set of input protein structures?
+
+Original Code:
+
+```{r}
+#| message: false
+#| warning: false
+# Can you improve this analysis code?
+library(bio3d)
+s1 <- read.pdb("4AKE") # kinase with drug
+s2 <- read.pdb("1AKE") # kinase no drug
+s3 <- read.pdb("1E4Y") # kinase with drug
+s1.chainA <- trim.pdb(s1, chain="A", elety="CA")
+s2.chainA <- trim.pdb(s2, chain="A", elety="CA")
+s3.chainA <- trim.pdb(s3, chain="A", elety="CA")
+s1.b <- s1.chainA$atom$b
+s2.b <- s2.chainA$atom$b
+s3.b <- s3.chainA$atom$b
+plotb3(s1.b, sse=s1.chainA, typ="l", ylab="Bfactor")
+plotb3(s2.b, sse=s2.chainA, typ="l", ylab="Bfactor")
+plotb3(s3.b, sse=s3.chainA, typ="l", ylab="Bfactor")
+```
+
+Generalized Code:
+
+```{r}
+#| message: false
+#| warning: false
+library(bio3d)
+
+#Input: pdb_ids: a character vector of PDB IDs. 
+#chain: the protein chain to analyze, default is "A".
+
+#What the function below does: reads each PDB structure,
+#only keeps C-alpha atoms from the chosen chain, 
+#extracts B-factors, plots the B-factor profile for each structure
+
+#output: returns a list containing the trimmed PDB objects, 
+#the extracted B-factor vectors, B-factor plots
+
+analyze_pdb_bfactors <- function(pdb_ids, chain = "A") {
+
+  # read and trim each structure
+  trimmed_pdbs <- lapply(pdb_ids, function(id) {
+    pdb <- read.pdb(id)
+    trim.pdb(pdb, chain = chain, elety = "CA")
+  })
+
+  # extract B-factors
+  b_factors <- lapply(trimmed_pdbs, function(pdb) {
+    pdb$atom$b
+  })
+  
+ # plot each structure
+  for (i in seq_along(trimmed_pdbs)) {
+    plotb3(
+      b_factors[[i]],
+      sse = trimmed_pdbs[[i]],
+      typ = "l",
+      ylab = "B-factor",
+      main = paste("B-factor profile:", pdb_ids[i], "Chain", chain)
+    )
+  }
+
+  # return results
+  return(list(
+    pdb_ids = pdb_ids,
+    chain = chain,
+    trimmed_pdbs = trimmed_pdbs,
+    b_factors = b_factors
+  ))
+}
+
+```
+
+Example:
+
+```{r}
+#| message: false
+#| warning: false
+result <- analyze_pdb_bfactors(c("4AKE", "1AKE", "1E4Y"), chain = "A")
+```
