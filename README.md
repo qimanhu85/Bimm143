@@ -15,7 +15,7 @@ Class 7: [Introduction to Machine Learning](Class07/clas07-machine-learning-1.pd
 
 Class 8: [Unsupervised learning mini-project](Class08/Class08BreastCancer.pdf)
 
-Class 9: [Candy Mini-Project](Class09/)
+Class 9: [Candy Mini-Project](Class09/Class09_Halloween_Candy.pdf)
 
 Class 10: [Structural Bioinformatics Part 1](Class10/)
 
