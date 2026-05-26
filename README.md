@@ -13,7 +13,7 @@ Class 6: [R functions](Class06/class06.pdf)
 
 Class 7: [Introduction to Machine Learning](Class07/clas07-machine-learning-1.pdf)
 
-Class 8: [Unsupervised learning mini-project]()
+Class 8: [Unsupervised learning mini-project](Class08/Class08BreastCancer.pdf)
 
 Class 9: []()
 
