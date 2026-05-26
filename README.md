@@ -1,7 +1,7 @@
 # Bimm143
 Bioinformatics Class
 
-This repo is for my UCSD bioinformatics class.
+This repo is for my UCSD bioinformatics class from [Bimm 143 at UC San Diego Spring 2026](https://bioboot.github.io/bimm143_S26/)
 
 ## Index of Classes
 
@@ -9,3 +9,4 @@ Class 4: [Introduction to R]()
 
 Class 5: [Data Viz with ggplot2]()
 
+Class 6: [R fybctuibs]()
