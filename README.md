@@ -9,4 +9,4 @@ Class 4: [Introduction to R](class04/Lab-04.pdf)
 
 Class 5: [Data Viz with ggplot2](Class05/Class05.pdf)
 
-Class 6: [R fybctuibs]()
+Class 6: [R functions](Class06/class06.pdf)
