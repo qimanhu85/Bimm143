@@ -21,7 +21,7 @@ Class 10: [Structural Bioinformatics Part 1](Class10/class10proj.pdf)
 
 Class 11: [Structural Bioinformatics Part 2](Class11/class11.pdf)
 
-Class 12: [Genome Informatics](Class12HW/)
+Class 12: [Genome Informatics](Class12HW/Lab12HW.pdf)
 
 Class 13: [Transcriptomics and the analysis of RNA-Seq data](Lab13/)
 
