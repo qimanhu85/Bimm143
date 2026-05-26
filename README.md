@@ -11,7 +11,7 @@ Class 5: [Data Viz with ggplot2](Class05/Class05.pdf)
 
 Class 6: [R functions](Class06/class06.pdf)
 
-Class 7: [Introduction to Machine Learning](Class07/)
+Class 7: [Introduction to Machine Learning](Class07/clas07-machine-learning-1.pdf)
 
 Class 8: [Unsupervised learning mini-project]()
 
