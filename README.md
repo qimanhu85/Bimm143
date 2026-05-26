@@ -5,7 +5,7 @@ This repo is for my UCSD bioinformatics class from [Bimm 143 at UC San Diego Spr
 
 ## Index of Classes
 
-Class 4: [Introduction to R]()
+Class 4: [Introduction to R](Lab-04.pdf)
 
 Class 5: [Data Viz with ggplot2]()
 
