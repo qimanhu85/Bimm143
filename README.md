@@ -17,7 +17,7 @@ Class 8: [Unsupervised learning mini-project](Class08/Class08BreastCancer.pdf)
 
 Class 9: [Candy Mini-Project](Class09/Class09_Halloween_Candy.pdf)
 
-Class 10: [Structural Bioinformatics Part 1](Class10/)
+Class 10: [Structural Bioinformatics Part 1](Class10/class10proj.pdf)
 
 Class 11: [Structural Bioinformatics Part 2](Class11/)
 
